@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* --- General Reset & Styling --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0c0c0c;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #000000;
+    padding: 30px 20px;
+    border: 1px solid #222;
+}
+
+/* --- Header Section --- */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.group-logo {
+    border: 2px solid #ff3366;
+    color: #ff3366;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.profile-img-container {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 30px auto;
+    border: 1px solid #333;
+}
+
+.profile-img-container img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* --- Info Table Section --- */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+}
+
+.info-table td {
+    padding: 6px 10px;
+    vertical-align: top;
+}
+
+.info-table td.label {
+    color: #d4af37; /* Golden yellow tone */
+    font-weight: bold;
+    width: 35%;
+}
+
+.info-table td.value {
+    color: #ffffff;
+    width: 65%;
+}
+
+.info-table a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* --- Signature Section --- */
+.signature-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.signature-container p {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.signature-box {
+    background-color: #cccccc;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+/* --- Career Section --- */
+.career-section {
+    border-top: 1px solid #333;
+    padding-top: 30px;
+}
+
+.career-title {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.career-block {
+    margin-bottom: 25px;
+    overflow: hidden; /* Clearfix for floated images */
+}
+
+.float-left {
+    float: left;
+    width: 140px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+}
+
+.float-right {
+    float: right;
+    width: 150px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+}
+
+.career-block img {
+     overflow: hidden;
+    margin-bottom: 12px;
+}
+
+/* --- Footer Nav --- */
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-btn {
+    background-color: #cccccc;
+    color: #000000;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.nav-btn:hover {
+    background-color: #ffffff;
+}
